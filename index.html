@@ -84,14 +84,27 @@
   action="https://formspree.io/f/xldbqjep"
   method="POST"
 >
+  <form>
   <label>
-    Your email:
-    <input type="email" name="email">
+    Nombre:
+    <input type="text" name="nombre" required>
   </label>
+  
   <label>
-    Your message:
-    <textarea name="message"></textarea>
+    Apellido:
+    <input type="text" name="apellido" required>
   </label>
+
+  <label>
+    Mail:
+    <input type="email" name="email" required>
+  </label>
+  
+  <label>
+    Mensaje:
+    <textarea name="message" required></textarea>
+  </label>
+  
   <button type="submit">Send</button>
 </form>
     </section>
